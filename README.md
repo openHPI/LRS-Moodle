@@ -43,3 +43,7 @@ After installation, you need to configure the plugin with your external LRS sett
   // Your modified h5p.js content goes here
 </script>
 ```
+
+## License
+
+LRS-Moodle plugin is available as open source under the terms of the [MIT License](https://opensource.org/license/mit).
