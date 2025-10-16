@@ -33,7 +33,7 @@ After installation, you need to configure the plugin with your external LRS sett
 
 ### Step 4: Configure the H5P Integration
 
-1. Open the `js/h5p.js` file from the plugin directory.
+1. Open the `js/h5p.js` file from the plugin directory. (for moodle 4.4.x) or `js/h5p_45x.js` if you installed the newer version of moodle.
 2. Replace the `var token = "your generated token here";` line with the token generated in the previous step.
 3. Log in to your Moodle site as an admin and navigate to `Site administration > Appearance > Additional HTML`.
 4. In the `Within HEAD` section, add the modified `h5p.js` script inside `<script>` tags.
